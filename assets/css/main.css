@@ -650,10 +650,26 @@ ul {
   max-width: 700px;
   margin: 0 auto;
 }
+.section-heading .about-section-body {
+  font-size: 26px;
+  line-height: 1.6;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0;
+  text-transform: none;
+  position: relative;
+  max-width: 80%;
+  margin: 0 auto;
+
+}
 @media only screen and (max-width: 991px) {
   .section-heading .section-title {
     max-width: 500px;
   }
+  .section-heading .about-section-body {
+    max-width: 90%;
+  }
+
 }
 @media only screen and (max-width: 991px) {
   .section-heading .section-title {
@@ -666,7 +682,7 @@ ul {
     max-width: 350px;
   }
 }
-.section-heading .section-title span {
+.section-heading .section-title span, .section-heading .about-section-body span {
   background: linear-gradient(81deg, #2f4d01d9 0%, #bfd904 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -675,7 +691,7 @@ ul {
   display: inline-block;
   position: relative;
 }
-.section-heading .section-title span:before {
+.section-heading .section-title span:before, .section-heading .about-section-body span:before {
   background-image: url(../img/shapes/blog-text-shape.png);
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -690,12 +706,12 @@ ul {
   animation: section-animation-2 3s infinite;
 }
 @media only screen and (max-width: 991px) {
-  .section-heading .section-title span:before {
+  .section-heading .section-title span:before, .section-heading .about-section-body span:before {
     bottom: -8px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .section-heading .section-title span:before {
+  .section-heading .section-title span:before, .section-heading .about-section-body span:before {
     bottom: -5px;
   }
 }
@@ -2394,7 +2410,7 @@ START: Theme Blog Details CSS
   border: 1px solid transparent;
 }
 .layout-social-box .box-right .social-list li:nth-child(2):hover a {
-  background-color: #229EF2;
+  background-color: #E1306C;
 }
 .layout-social-box .box-right .social-list li:nth-child(3):hover a {
   background-color: #0681BA;
@@ -6130,7 +6146,7 @@ START: Theme Team CSS
   border: 1px solid transparent;
 }
 .team-details-content .social-list li:nth-child(2):hover a {
-  background-color: #229EF2;
+  background-color: #E1306C;
 }
 .team-details-content .social-list li:nth-child(3):hover a {
   background-color: #0681BA;
@@ -6582,8 +6598,8 @@ START: Theme Footer CSS
   border: 1px solid #0866FF;
 }
 .footer-widget .footer-social li:nth-child(2):hover a {
-  background-color: #229EF2;
-  border: 1px solid #229EF2;
+  background-color: #E1306C;
+  border: 1px solid #E1306C;
 }
 .footer-widget .footer-social li:nth-child(3):hover a {
   background-color: #0681BA;
@@ -6683,8 +6699,8 @@ START: Theme Footer CSS
   border: 1px solid #0866FF;
 }
 .footer-2 .footer-widget .footer-social li:nth-child(2):hover a {
-  background-color: #229EF2;
-  border: 1px solid #229EF2;
+  background-color: #E1306C;
+  border: 1px solid #E1306C;
 }
 .footer-2 .footer-widget .footer-social li:nth-child(3):hover a {
   background-color: #0681BA;
