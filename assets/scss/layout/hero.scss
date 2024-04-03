@@ -71,12 +71,6 @@ START: Theme Hero CSS
             position: relative;
             .shape{
                 position: absolute;
-                top: -8px;
-                right: -43px;
-                @include breakpoint(sm){
-                    top: -25px;
-                    right: -40px;
-                }
             }
         }
     }

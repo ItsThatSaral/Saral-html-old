@@ -2972,13 +2972,13 @@ START: Theme Hero CSS
 }
 .hero-content .title .shape-text .shape {
   position: absolute;
-  top: -8px;
-  right: -43px;
+  /* top: -8px; */
+  /* right: -43px; */
 }
 @media only screen and (max-width: 767px) {
   .hero-content .title .shape-text .shape {
-    top: -25px;
-    right: -40px;
+    /* top: -25px;
+    right: -40px; */
   }
 }
 .hero-content p {
