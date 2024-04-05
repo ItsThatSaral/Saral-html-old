@@ -691,6 +691,15 @@ ul {
   display: inline-block;
   position: relative;
 }
+.SARAL_TEXT {
+  background: linear-gradient(81deg, #2f4d01d9 0%, #bfd904 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-feature-settings: "clig" off, "liga" off;
+  display: inline-block;
+  position: relative;
+}
 .section-heading .section-title span:before, .section-heading .about-section-body span:before {
   background-image: url(../img/shapes/blog-text-shape.png);
   background-repeat: no-repeat;
