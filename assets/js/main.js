@@ -81,12 +81,26 @@ function includeHTML() {
       meanExpand: ['<i class="fa-solid fa-caret-down"></i>'],
     });
 
-    // Mobile Sidemenu
-    $(".mobile-side-menu-toggle").on("click", function () {
+    // // Mobile Sidemenu
+    // $(".mobile-side-menu-toggle").on("click", function () {
+    //   $(".mobile-side-menu, .mobile-side-menu-overlay").toggleClass("is-open");
+    // });
+
+    // $(".mobile-side-menu-close, .mobile-side-menu-overlay").on(
+    //   "click",
+    //   function () {
+    //     $(".mobile-side-menu, .mobile-side-menu-overlay").removeClass(
+    //       "is-open"
+    //     );
+    //   }
+    // );
+
+     // Mobile Sidemenu
+     $("#mobile-side-menu-toggle").on("click", function () {
       $(".mobile-side-menu, .mobile-side-menu-overlay").toggleClass("is-open");
     });
 
-    $(".mobile-side-menu-close, .mobile-side-menu-overlay").on(
+    $("#mobile-side-menu-close, #mobile-side-menu-overlay").on(
       "click",
       function () {
         $(".mobile-side-menu, .mobile-side-menu-overlay").removeClass(
