@@ -1643,7 +1643,7 @@ START: Theme Header CSS
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid var(--pb-color-border-1);
+    /* border: 1px solid var(--pb-color-border-1); */
   }
 }
 @media only screen and (max-width: 991px) and (max-width: 767px) {
