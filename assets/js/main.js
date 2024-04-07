@@ -95,19 +95,23 @@ function includeHTML() {
     //   }
     // );
 
-     // Mobile Sidemenu
-     $("#mobile-side-menu-toggle").on("click", function () {
-      $(".mobile-side-menu, .mobile-side-menu-overlay").toggleClass("is-open");
-    });
-
-    $("#mobile-side-menu-close, #mobile-side-menu-overlay").on(
-      "click",
-      function () {
-        $(".mobile-side-menu, .mobile-side-menu-overlay").removeClass(
+    // Mobile Sidemenu
+    $(function () {
+      $("#mobile-side-menu-toggle").on("click", function () {
+        $(".mobile-side-menu, .mobile-side-menu-overlay").toggleClass(
           "is-open"
         );
-      }
-    );
+      });
+
+      $("#mobile-side-menu-close, #mobile-side-menu-overlay").on(
+        "click",
+        function () {
+          $(".mobile-side-menu, .mobile-side-menu-overlay").removeClass(
+            "is-open"
+          );
+        }
+      );
+    });
 
     // Popup Search Box
     $(function () {
