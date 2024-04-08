@@ -73,13 +73,13 @@ function includeHTML() {
     }
 
     //Mobile Menu Js
-    $(".mobile-menu-items").meanmenu({
-      meanMenuContainer: ".side-menu-wrap",
-      meanScreenWidth: "991",
-      meanMenuCloseSize: "30px",
-      meanRemoveAttrs: true,
-      meanExpand: ['<i class="fa-solid fa-caret-down"></i>'],
-    });
+    // $(".mobile-menu-items").meanmenu({
+    //   meanMenuContainer: ".side-menu-wrap",
+    //   meanScreenWidth: "991",
+    //   meanMenuCloseSize: "30px",
+    //   meanRemoveAttrs: true,
+    //   meanExpand: ['<i class="fa-solid fa-caret-down"></i>'],
+    // });
 
     // // Mobile Sidemenu
     // $(".mobile-side-menu-toggle").on("click", function () {
